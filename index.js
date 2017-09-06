@@ -10,7 +10,15 @@ function johnLennonFacts(facts) {
   var i = 0
   while (i < facts.length) {
     facts[i] = facts[i] + "!!!"
-    i += 1
+    i ++
   }
   return facts
+}
+
+function iLoveTheBeatles(num) {
+  var love = []
+  do {
+    love.push("I love the Beatles!")
+    num ++
+  } while ();
 }
